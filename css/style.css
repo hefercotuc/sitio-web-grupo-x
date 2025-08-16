@@ -12,6 +12,7 @@ header {
     margin: auto;
     text-align: center;
     border-radius:20px;
+    
 }
 
 nav ul {
@@ -59,6 +60,7 @@ nav a {
 #productos {
     padding: 30px;
     background-color: white;
+    text-align: center;
 }
 
 .producto {
@@ -90,13 +92,4 @@ footer {
     height: auto;
     border-radius: 20px;
     margin-bottom: 10px;
-}
-h2{
-    text-align: center;
-    background-color: #1b5e20;
-    display: inline;
-    position: relative;
-    left: 150px;
-    color: white;
-    border-radius: 10px;
 }
