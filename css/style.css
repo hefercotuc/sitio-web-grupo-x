@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+    color: #333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius:20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#banner {
+    background-color: #a5d6a7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#banner h2 {
+    margin-top: 0;
+}
+
+#quienes-venden {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#quienes-venden a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+#productos {
+    padding: 30px;
+    background-color: white;
+}
+
+.producto {
+    background-color:white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
